@@ -8,25 +8,24 @@
 
 #import "HelloPoly2012Tests.h"
 
-@implementation HelloPoly2012Tests
+@implementation HelloPoly2012Tests {
+
+}
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    polygon = [[PolygonShape alloc] init];
 }
 
 - (void)tearDown
 {
     // Tear-down code here.
-    
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in HelloPoly2012Tests");
+- (void)testInit {
+    STAssertNotNil(polygon, @"Improper initialization of polygon object");
 }
 
 @end

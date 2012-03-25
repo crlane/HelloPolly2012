@@ -7,7 +7,12 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "PolygonShape.h"
 
-@interface HelloPoly2012Tests : SenTestCase
+@interface HelloPoly2012Tests : SenTestCase {
+    PolygonShape *polygon;
+}
+
+- (void) testInit;
 
 @end
