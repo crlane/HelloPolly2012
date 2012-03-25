@@ -26,6 +26,8 @@
     nameLabel.text = polygon.name;
     stepper.value = polygon.numberOfSides;
     sidesLabel.text = [NSString stringWithFormat: @"%d",polygon.numberOfSides];
+    polygonView.numSides = polygon.numberOfSides;
+    [polygonView setNeedsDisplay];
 }
 
 - (void)viewDidUnload
