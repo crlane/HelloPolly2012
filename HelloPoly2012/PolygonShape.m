@@ -15,4 +15,17 @@
 @synthesize numberOfSides;
 @synthesize name;
 
+
+- (id) init {
+    [self initWithNumberOfSides: DEFAULT_NUMBER_OF_SIDES];
+}
+
+- (id) initWithNumberOfSides: (int) sides {
+    if([super init]){
+        self.numberOfSides = sides;
+    }
+    
+    return self;
+}
+
 @end

@@ -8,11 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#define DEFAULT_NUMBER_OF_SIDES 5
+
 @interface PolygonShape : NSObject {
     
 }
 
 @property (nonatomic) int numberOfSides;
-@property (nonatomic,readonly,retain) NSString* name;
+@property (nonatomic, retain) NSString* name;
 
+- (id) init;
+- (id) initWithNumberOfSides: (int) sides;
 @end
