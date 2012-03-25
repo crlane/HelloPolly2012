@@ -20,6 +20,8 @@
 		7E8804C4151F765F004CF87A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8804A5151F765E004CF87A /* Foundation.framework */; };
 		7E8804CC151F765F004CF87A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E8804CA151F765F004CF87A /* InfoPlist.strings */; };
 		7E8804CF151F765F004CF87A /* HelloPoly2012Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8804CE151F765F004CF87A /* HelloPoly2012Tests.m */; };
+		7E8804D9151F76CD004CF87A /* PolygonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8804D8151F76CD004CF87A /* PolygonView.xib */; };
+		7E8804DC151F7714004CF87A /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8804DB151F7714004CF87A /* PolygonShape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		7E8804A3151F765E004CF87A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E8804A5151F765E004CF87A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E8804A7151F765E004CF87A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E8804AB151F765E004CF87A /* HelloPoly2012-Info.plist */ = {isa = PBXFileReference; path = "HelloPoly2012-Info.plist"; sourceTree = "<group>"; };
+		7E8804AB151F765E004CF87A /* HelloPoly2012-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPoly2012-Info.plist"; sourceTree = "<group>"; };
 		7E8804AD151F765E004CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E8804AF151F765E004CF87A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E8804B1151F765E004CF87A /* HelloPoly2012-Prefix.pch */ = {isa = PBXFileReference; path = "HelloPoly2012-Prefix.pch"; sourceTree = "<group>"; };
-		7E8804B2151F765E004CF87A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E8804B1151F765E004CF87A /* HelloPoly2012-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloPoly2012-Prefix.pch"; sourceTree = "<group>"; };
+		7E8804B2151F765E004CF87A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E8804B3151F765E004CF87A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7E8804B6151F765F004CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7E8804B8151F765F004CF87A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7E8804B8151F765F004CF87A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7E8804B9151F765F004CF87A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7E8804C0151F765F004CF87A /* HelloPoly2012Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPoly2012Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8804C1151F765F004CF87A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7E8804C9151F765F004CF87A /* HelloPoly2012Tests-Info.plist */ = {isa = PBXFileReference; path = "HelloPoly2012Tests-Info.plist"; sourceTree = "<group>"; };
+		7E8804C9151F765F004CF87A /* HelloPoly2012Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloPoly2012Tests-Info.plist"; sourceTree = "<group>"; };
 		7E8804CB151F765F004CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7E8804CD151F765F004CF87A /* HelloPoly2012Tests.h */ = {isa = PBXFileReference; path = HelloPoly2012Tests.h; sourceTree = "<group>"; };
+		7E8804CD151F765F004CF87A /* HelloPoly2012Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloPoly2012Tests.h; sourceTree = "<group>"; };
 		7E8804CE151F765F004CF87A /* HelloPoly2012Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPoly2012Tests.m; sourceTree = "<group>"; };
+		7E8804D8151F76CD004CF87A /* PolygonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolygonView.xib; sourceTree = "<group>"; };
+		7E8804DA151F7714004CF87A /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonShape.h; sourceTree = "<group>"; };
+		7E8804DB151F7714004CF87A /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				7E8804B8151F765F004CF87A /* ViewController.h */,
 				7E8804B9151F765F004CF87A /* ViewController.m */,
 				7E8804AA151F765E004CF87A /* Supporting Files */,
+				7E8804D8151F76CD004CF87A /* PolygonView.xib */,
+				7E8804DA151F7714004CF87A /* PolygonShape.h */,
+				7E8804DB151F7714004CF87A /* PolygonShape.m */,
 			);
 			path = HelloPoly2012;
 			sourceTree = "<group>";
@@ -224,6 +232,7 @@
 			files = (
 				7E8804AE151F765E004CF87A /* InfoPlist.strings in Resources */,
 				7E8804B7151F765F004CF87A /* MainStoryboard.storyboard in Resources */,
+				7E8804D9151F76CD004CF87A /* PolygonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				7E8804B0151F765E004CF87A /* main.m in Sources */,
 				7E8804B4151F765E004CF87A /* AppDelegate.m in Sources */,
 				7E8804BA151F765F004CF87A /* ViewController.m in Sources */,
+				7E8804DC151F7714004CF87A /* PolygonShape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
