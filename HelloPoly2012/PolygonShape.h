@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface PolygonShape : NSObject {
-    
+   
 }
 
 @property (nonatomic) int numberOfSides;
-@property (nonatomic, retain) NSString* name;
+@property (nonatomic, readonly, retain) NSString* name;
+
 
 - (id) init;
 - (id) initWithNumberOfSides: (int) sides;
+- (id) name;
 @end

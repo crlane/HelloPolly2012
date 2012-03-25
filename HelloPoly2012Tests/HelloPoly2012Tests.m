@@ -10,6 +10,7 @@
 
 NSString *const INIT_ERROR = @"Improper initialization of polygon object.";
 NSString *const WRONG_SIDES = @"Wrong number of sides.";
+NSString *const INCORRECT_NAME = @"Name is incorrect.";
 
 @implementation HelloPoly2012Tests {
 
@@ -33,11 +34,14 @@ NSString *const WRONG_SIDES = @"Wrong number of sides.";
 - (void)testInit {
     STAssertNotNil(polygonDefault, INIT_ERROR);
     STAssertEquals(polygonDefault.numberOfSides, DEFAULT_NUMBER_OF_SIDES, INIT_ERROR);
+    STAssertEqualObjects(polygonDefault.name, @"Pentagon", INCORRECT_NAME);
 }
 
 - (void) testInitWithArguments{
     STAssertNotNil(polygonMin, INIT_ERROR);
     STAssertEquals(polygonMin.numberOfSides, MIN_NUMBER_OF_SIDES, INIT_ERROR, WRONG_SIDES);
+    STAssertEqualObjects(polygonMin.name, @"Triangle", INCORRECT_NAME);
     STAssertEquals(polygonMax.numberOfSides, MAX_NUMBER_OF_SIDES, INIT_ERROR, WRONG_SIDES);
+    STAssertEqualObjects(polygonMax.name, @"Dodecagon", INCORRECT_NAME);
 }
 @end
