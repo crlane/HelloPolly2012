@@ -17,10 +17,11 @@
 
 
 - (id) init {
-    [self initWithNumberOfSides: DEFAULT_NUMBER_OF_SIDES];
+   return [self initWithNumberOfSides: DEFAULT_NUMBER_OF_SIDES];
 }
 
 - (id) initWithNumberOfSides: (int) sides {
+    
     if([super init]){
         self.numberOfSides = sides;
     }
