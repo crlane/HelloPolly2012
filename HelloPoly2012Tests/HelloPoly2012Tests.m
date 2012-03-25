@@ -8,17 +8,20 @@
 
 #import "HelloPoly2012Tests.h"
 
+NSString *const INIT_ERROR = @"Improper initialization of polygon object.";
+NSString *const WRONG_SIDES = @"Wrong number of sides.";
 
 @implementation HelloPoly2012Tests {
-    NSString *initError;
+
 }
 
 - (void)setUp
 {
     [super setUp];
-    polygon = [[PolygonShape alloc] init];
-    polygon2 = [[PolygonShape alloc] initWithNumberOfSides:3];
-    initError = @"Improper initialization of polygon object";
+    polygonDefault = [[PolygonShape alloc] init];
+    polygonMin = [[PolygonShape alloc] initWithNumberOfSides: MIN_NUMBER_OF_SIDES];
+    polygonMax = [[PolygonShape alloc] initWithNumberOfSides: MAX_NUMBER_OF_SIDES];
+   
 }
 
 - (void)tearDown
@@ -28,10 +31,13 @@
 }
 
 - (void)testInit {
-    STAssertNotNil(polygon, initError);
+    STAssertNotNil(polygonDefault, INIT_ERROR);
+    STAssertEquals(polygonDefault.numberOfSides, DEFAULT_NUMBER_OF_SIDES, INIT_ERROR);
 }
 
 - (void) testInitWithArguments{
-    STAssertNotNil(polygon2, initError);
+    STAssertNotNil(polygonMin, INIT_ERROR);
+    STAssertEquals(polygonMin.numberOfSides, MIN_NUMBER_OF_SIDES, INIT_ERROR, WRONG_SIDES);
+    STAssertEquals(polygonMax.numberOfSides, MAX_NUMBER_OF_SIDES, INIT_ERROR, WRONG_SIDES);
 }
 @end

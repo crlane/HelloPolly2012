@@ -9,9 +9,15 @@
 #import <SenTestingKit/SenTestingKit.h>
 #import "PolygonShape.h"
 
+extern NSString *const INIT_ERROR;
+extern NSString *const WRONG_SIDES;
+
+
 @interface HelloPoly2012Tests : SenTestCase {
-    PolygonShape *polygon;
-    PolygonShape *polygon2;
+ 
+    PolygonShape *polygonDefault;
+    PolygonShape *polygonMin;
+    PolygonShape *polygonMax;
 }
 
 - (void) testInit;
