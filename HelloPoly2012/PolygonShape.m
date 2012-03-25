@@ -8,6 +8,11 @@
 
 #import "PolygonShape.h"
 
-@implementation PolygonShape
+@implementation PolygonShape {
+    
+}
+
+@synthesize numberOfSides;
+@synthesize name;
 
 @end

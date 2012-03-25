@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PolygonShape : NSObject
+@interface PolygonShape : NSObject {
+    
+}
+
+@property (nonatomic) int numberOfSides;
+@property (nonatomic,readonly,retain) NSString* name;
 
 @end
