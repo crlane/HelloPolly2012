@@ -14,3 +14,5 @@
 #endif
 
 #define DEFAULT_NUMBER_OF_SIDES 5
+#define MIN_NUMBER_OF_SIDES 3
+#define MAX_NUMBER_OF_SIDEs 12
