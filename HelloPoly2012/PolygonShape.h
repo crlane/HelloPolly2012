@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define DEFAULT_NUMBER_OF_SIDES 5
-
 @interface PolygonShape : NSObject {
     
 }
