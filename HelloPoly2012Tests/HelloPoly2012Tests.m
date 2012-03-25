@@ -8,14 +8,17 @@
 
 #import "HelloPoly2012Tests.h"
 
-@implementation HelloPoly2012Tests {
 
+@implementation HelloPoly2012Tests {
+    NSString *initError;
 }
 
 - (void)setUp
 {
     [super setUp];
     polygon = [[PolygonShape alloc] init];
+    polygon2 = [[PolygonShape alloc] initWithNumberOfSides:3];
+    initError = @"Improper initialization of polygon object";
 }
 
 - (void)tearDown
@@ -25,7 +28,10 @@
 }
 
 - (void)testInit {
-    STAssertNotNil(polygon, @"Improper initialization of polygon object");
+    STAssertNotNil(polygon, initError);
 }
 
+- (void) testInitWithArguments{
+    STAssertNotNil(polygon2, initError);
+}
 @end

@@ -11,8 +11,10 @@
 
 @interface HelloPoly2012Tests : SenTestCase {
     PolygonShape *polygon;
+    PolygonShape *polygon2;
 }
 
 - (void) testInit;
+- (void) testInitWithArguments;
 
 @end
