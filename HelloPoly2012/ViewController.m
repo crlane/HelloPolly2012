@@ -22,10 +22,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    polygon = [[PolygonShape alloc] init];
+    nameLabel.text = polygon.name;
+    stepper.value = polygon.numberOfSides;
+    sidesLabel.text = [NSString stringWithFormat: @"%d",polygon.numberOfSides];
 }
 
 - (void)viewDidUnload
 {
+    polygonView = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -56,5 +61,6 @@
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
 
 @end

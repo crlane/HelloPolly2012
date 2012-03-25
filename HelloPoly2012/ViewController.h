@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "PolygonShape.h"
+#import "PolygonView.h"
 
 @interface ViewController : UIViewController {
-    PolygonShape *polygon;
+    IBOutlet PolygonShape *polygon;
+    IBOutlet PolygonView *polygonView;
+    IBOutlet UILabel *nameLabel;
+    IBOutlet UILabel *sidesLabel;
+    IBOutlet UIStepper *stepper;
+    
 }
+
 
 @end
