@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface PolygonView : UIView{
-    int numSides;
+    
 }
+@property int numSides;
 
 + (NSArray *)pointsForPolygonInRect:(CGRect)rect numberOfSides:(int)sides;
 @end

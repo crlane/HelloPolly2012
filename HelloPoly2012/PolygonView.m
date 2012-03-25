@@ -8,7 +8,9 @@
 
 #import "PolygonView.h"
 
-@implementation PolygonView
+@implementation PolygonView 
+
+@synthesize numSides;
 
 - (id)initWithFrame:(CGRect)frame
 {
