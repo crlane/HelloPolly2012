@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8804A4151F765E004CF87A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8804A3151F765E004CF87A /* UIKit.framework */; };
+		7E8804A6151F765E004CF87A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8804A5151F765E004CF87A /* Foundation.framework */; };
+		7E8804A8151F765E004CF87A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8804A7151F765E004CF87A /* CoreGraphics.framework */; };
+		7E8804AE151F765E004CF87A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E8804AC151F765E004CF87A /* InfoPlist.strings */; };
+		7E8804B0151F765E004CF87A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8804AF151F765E004CF87A /* main.m */; };
+		7E8804B4151F765E004CF87A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8804B3151F765E004CF87A /* AppDelegate.m */; };
+		7E8804B7151F765F004CF87A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8804B5151F765F004CF87A /* MainStoryboard.storyboard */; };
+		7E8804BA151F765F004CF87A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8804B9151F765F004CF87A /* ViewController.m */; };
+		7E8804C2151F765F004CF87A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8804C1151F765F004CF87A /* SenTestingKit.framework */; };
+		7E8804C3151F765F004CF87A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8804A3151F765E004CF87A /* UIKit.framework */; };
+		7E8804C4151F765F004CF87A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8804A5151F765E004CF87A /* Foundation.framework */; };
+		7E8804CC151F765F004CF87A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E8804CA151F765F004CF87A /* InfoPlist.strings */; };
+		7E8804CF151F765F004CF87A /* HelloPoly2012Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8804CE151F765F004CF87A /* HelloPoly2012Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8804C5151F765F004CF87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E880496151F765E004CF87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E88049E151F765E004CF87A;
+			remoteInfo = HelloPoly2012;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E88049F151F765E004CF87A /* HelloPoly2012.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPoly2012.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8804A3151F765E004CF87A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E8804A5151F765E004CF87A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E8804A7151F765E004CF87A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E8804AB151F765E004CF87A /* HelloPoly2012-Info.plist */ = {isa = PBXFileReference; path = "HelloPoly2012-Info.plist"; sourceTree = "<group>"; };
+		7E8804AD151F765E004CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E8804AF151F765E004CF87A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E8804B1151F765E004CF87A /* HelloPoly2012-Prefix.pch */ = {isa = PBXFileReference; path = "HelloPoly2012-Prefix.pch"; sourceTree = "<group>"; };
+		7E8804B2151F765E004CF87A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E8804B3151F765E004CF87A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E8804B6151F765F004CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7E8804B8151F765F004CF87A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7E8804B9151F765F004CF87A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E8804C0151F765F004CF87A /* HelloPoly2012Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPoly2012Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8804C1151F765F004CF87A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E8804C9151F765F004CF87A /* HelloPoly2012Tests-Info.plist */ = {isa = PBXFileReference; path = "HelloPoly2012Tests-Info.plist"; sourceTree = "<group>"; };
+		7E8804CB151F765F004CF87A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E8804CD151F765F004CF87A /* HelloPoly2012Tests.h */ = {isa = PBXFileReference; path = HelloPoly2012Tests.h; sourceTree = "<group>"; };
+		7E8804CE151F765F004CF87A /* HelloPoly2012Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloPoly2012Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E88049C151F765E004CF87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8804A4151F765E004CF87A /* UIKit.framework in Frameworks */,
+				7E8804A6151F765E004CF87A /* Foundation.framework in Frameworks */,
+				7E8804A8151F765E004CF87A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8804BC151F765F004CF87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8804C2151F765F004CF87A /* SenTestingKit.framework in Frameworks */,
+				7E8804C3151F765F004CF87A /* UIKit.framework in Frameworks */,
+				7E8804C4151F765F004CF87A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E880494151F765E004CF87A = {
+			isa = PBXGroup;
+			children = (
+				7E8804A9151F765E004CF87A /* HelloPoly2012 */,
+				7E8804C7151F765F004CF87A /* HelloPoly2012Tests */,
+				7E8804A2151F765E004CF87A /* Frameworks */,
+				7E8804A0151F765E004CF87A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8804A0151F765E004CF87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E88049F151F765E004CF87A /* HelloPoly2012.app */,
+				7E8804C0151F765F004CF87A /* HelloPoly2012Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8804A2151F765E004CF87A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E8804A3151F765E004CF87A /* UIKit.framework */,
+				7E8804A5151F765E004CF87A /* Foundation.framework */,
+				7E8804A7151F765E004CF87A /* CoreGraphics.framework */,
+				7E8804C1151F765F004CF87A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E8804A9151F765E004CF87A /* HelloPoly2012 */ = {
+			isa = PBXGroup;
+			children = (
+				7E8804B2151F765E004CF87A /* AppDelegate.h */,
+				7E8804B3151F765E004CF87A /* AppDelegate.m */,
+				7E8804B5151F765F004CF87A /* MainStoryboard.storyboard */,
+				7E8804B8151F765F004CF87A /* ViewController.h */,
+				7E8804B9151F765F004CF87A /* ViewController.m */,
+				7E8804AA151F765E004CF87A /* Supporting Files */,
+			);
+			path = HelloPoly2012;
+			sourceTree = "<group>";
+		};
+		7E8804AA151F765E004CF87A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E8804AB151F765E004CF87A /* HelloPoly2012-Info.plist */,
+				7E8804AC151F765E004CF87A /* InfoPlist.strings */,
+				7E8804AF151F765E004CF87A /* main.m */,
+				7E8804B1151F765E004CF87A /* HelloPoly2012-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E8804C7151F765F004CF87A /* HelloPoly2012Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8804CD151F765F004CF87A /* HelloPoly2012Tests.h */,
+				7E8804CE151F765F004CF87A /* HelloPoly2012Tests.m */,
+				7E8804C8151F765F004CF87A /* Supporting Files */,
+			);
+			path = HelloPoly2012Tests;
+			sourceTree = "<group>";
+		};
+		7E8804C8151F765F004CF87A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E8804C9151F765F004CF87A /* HelloPoly2012Tests-Info.plist */,
+				7E8804CA151F765F004CF87A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E88049E151F765E004CF87A /* HelloPoly2012 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8804D2151F765F004CF87A /* Build configuration list for PBXNativeTarget "HelloPoly2012" */;
+			buildPhases = (
+				7E88049B151F765E004CF87A /* Sources */,
+				7E88049C151F765E004CF87A /* Frameworks */,
+				7E88049D151F765E004CF87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloPoly2012;
+			productName = HelloPoly2012;
+			productReference = 7E88049F151F765E004CF87A /* HelloPoly2012.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E8804BF151F765F004CF87A /* HelloPoly2012Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8804D5151F765F004CF87A /* Build configuration list for PBXNativeTarget "HelloPoly2012Tests" */;
+			buildPhases = (
+				7E8804BB151F765F004CF87A /* Sources */,
+				7E8804BC151F765F004CF87A /* Frameworks */,
+				7E8804BD151F765F004CF87A /* Resources */,
+				7E8804BE151F765F004CF87A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8804C6151F765F004CF87A /* PBXTargetDependency */,
+			);
+			name = HelloPoly2012Tests;
+			productName = HelloPoly2012Tests;
+			productReference = 7E8804C0151F765F004CF87A /* HelloPoly2012Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E880496151F765E004CF87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Adamanteus Software, LLC";
+			};
+			buildConfigurationList = 7E880499151F765E004CF87A /* Build configuration list for PBXProject "HelloPoly2012" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E880494151F765E004CF87A;
+			productRefGroup = 7E8804A0151F765E004CF87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E88049E151F765E004CF87A /* HelloPoly2012 */,
+				7E8804BF151F765F004CF87A /* HelloPoly2012Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E88049D151F765E004CF87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8804AE151F765E004CF87A /* InfoPlist.strings in Resources */,
+				7E8804B7151F765F004CF87A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8804BD151F765F004CF87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8804CC151F765F004CF87A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E8804BE151F765F004CF87A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E88049B151F765E004CF87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8804B0151F765E004CF87A /* main.m in Sources */,
+				7E8804B4151F765E004CF87A /* AppDelegate.m in Sources */,
+				7E8804BA151F765F004CF87A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8804BB151F765F004CF87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8804CF151F765F004CF87A /* HelloPoly2012Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E8804C6151F765F004CF87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E88049E151F765E004CF87A /* HelloPoly2012 */;
+			targetProxy = 7E8804C5151F765F004CF87A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E8804AC151F765E004CF87A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8804AD151F765E004CF87A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E8804B5151F765F004CF87A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8804B6151F765F004CF87A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7E8804CA151F765F004CF87A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8804CB151F765F004CF87A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E8804D0151F765F004CF87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E8804D1151F765F004CF87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E8804D3151F765F004CF87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly2012/HelloPoly2012-Prefix.pch";
+				INFOPLIST_FILE = "HelloPoly2012/HelloPoly2012-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E8804D4151F765F004CF87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly2012/HelloPoly2012-Prefix.pch";
+				INFOPLIST_FILE = "HelloPoly2012/HelloPoly2012-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E8804D6151F765F004CF87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloPoly2012.app/HelloPoly2012";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly2012/HelloPoly2012-Prefix.pch";
+				INFOPLIST_FILE = "HelloPoly2012Tests/HelloPoly2012Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7E8804D7151F765F004CF87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloPoly2012.app/HelloPoly2012";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloPoly2012/HelloPoly2012-Prefix.pch";
+				INFOPLIST_FILE = "HelloPoly2012Tests/HelloPoly2012Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E880499151F765E004CF87A /* Build configuration list for PBXProject "HelloPoly2012" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8804D0151F765F004CF87A /* Debug */,
+				7E8804D1151F765F004CF87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8804D2151F765F004CF87A /* Build configuration list for PBXNativeTarget "HelloPoly2012" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8804D3151F765F004CF87A /* Debug */,
+				7E8804D4151F765F004CF87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E8804D5151F765F004CF87A /* Build configuration list for PBXNativeTarget "HelloPoly2012Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8804D6151F765F004CF87A /* Debug */,
+				7E8804D7151F765F004CF87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E880496151F765E004CF87A /* Project object */;
+}
