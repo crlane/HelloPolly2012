@@ -19,5 +19,7 @@
     
 }
 
+- (IBAction)changeNumSides:(id)sender;
+
 
 @end

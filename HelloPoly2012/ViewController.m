@@ -24,9 +24,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
     polygon = [[PolygonShape alloc] init];
     nameLabel.text = polygon.name;
-    stepper.value = polygon.numberOfSides;
     sidesLabel.text = [NSString stringWithFormat: @"%d",polygon.numberOfSides];
     polygonView.numSides = polygon.numberOfSides;
+    stepper.value = polygon.numberOfSides;
+    stepper.minimumValue = MIN_NUMBER_OF_SIDES;
+    stepper.maximumValue = MAX_NUMBER_OF_SIDES;
     [polygonView setNeedsDisplay];
 }
 
@@ -62,6 +64,14 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)changeNumSides:(id)sender{
+    polygon.numberOfSides = (int) stepper.value;
+    nameLabel.text = polygon.name;
+    sidesLabel.text = [NSString stringWithFormat: @"%d", polygon.numberOfSides];
+    polygonView.numSides = polygon.numberOfSides;
+    [polygonView setNeedsDisplay];
 }
 
 
